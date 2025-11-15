@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import headerLogo from "../assets/ciq-fav.ico";
 
 interface HeaderProps {
   children: ReactNode;
@@ -9,7 +10,7 @@ export default function Header({ children }: HeaderProps) {
     <>
       <div className="ciq-header__bar">
         <div className="ciq-header__brand">
-          <img src="/src/assets/ciq-fav.ico" alt="CompasIQ logo" className="ciq-header__mark" />
+          <img src={headerLogo} alt="CompasIQ logo" className="ciq-header__mark" />
           <div className="ciq-header__brand-copy">
             <span className="ciq-header__brand-name">CompasIQ</span>
             <span className="ciq-header__brand-subline">DNS Navigator</span>
