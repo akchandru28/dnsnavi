@@ -1,7 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App";
-import faviconUrl from "./assets/ciq-icon.ico";
+import faviconUrl from "./assets/ciq-fav.ico";
 
 const ensureFavicon = () => {
   const selector = "link[rel*='icon']";
